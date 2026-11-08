@@ -6,7 +6,7 @@ from email import encoders
 
 def mail_gonder(excel_dosyasi, grafik_dosyasi, planlama_ozeti, alici_mail):
     gonderici = "hamzaardadagli07@gmail.com" 
-    sifre = "agwu pocs aqne zmkm"          
+    sifre = ""          
     
     msg = MIMEMultipart()
     msg['From'] = gonderici
